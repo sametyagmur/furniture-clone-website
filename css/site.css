@@ -138,6 +138,9 @@ color: #000;
 background: #25f7e654;
 }
 
+.map {
+    width: 100%;
+}
 
 
 
@@ -260,7 +263,10 @@ font-weight: bold;
         padding-top: 1px;
     }
     
-    
 
+    .map iframe{
+        width: 100%;
+        height: 200px;
+    }
 
 }
