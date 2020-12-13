@@ -203,6 +203,10 @@ background: #25f7e654;
     text-align: center;
     font-size: 15px;
 }
+
+.copyright p{
+margin: 0;
+}
 /* Responsive max 768px */
 @media only screen and (max-width:425px){
 
