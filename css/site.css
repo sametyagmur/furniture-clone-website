@@ -142,8 +142,67 @@ background: #25f7e654;
     width: 100%;
 }
 
+.contact .button{
+    padding-bottom: 10px;
+}
+.contact .btn{
+    color: #ffffff;
+    background-color:#0fbbad ;
+    border: none;
+    
 
+    
+}
 
+.contact .btn:hover{
+    color: #0fbbad ;
+    background-color: #ffffff;
+    transition: all 0.3s ease-in;
+}
+.form-control{
+    width: 50% !important;
+    
+}
+
+.footer{
+    background: #00312e;
+    margin-top: 15px;
+}
+
+.footer .label-control{
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.footer .footer-logo{
+    padding-top: 15px;
+}
+
+.footer .form-inline{
+    padding-top: 15px;
+}
+
+.footer .form-inline .label-control{
+    padding-right: 5px;
+}
+
+.footer button{
+    background: #ffffff;
+    color: #00312e;
+    border: none;
+    font-weight: bold;
+}
+
+.footer button:hover{
+    background: #813838;
+   
+}
+
+.copyright{
+    background: #00312e96;
+    text-align: center;
+    font-size: 15px;
+}
 /* Responsive max 768px */
 @media only screen and (max-width:425px){
 
@@ -267,6 +326,51 @@ font-weight: bold;
     .map iframe{
         width: 100%;
         height: 200px;
+    }
+
+    .form-control{
+        width: 100% !important;
+        
+    }
+
+    .footer{
+        background: #00312e;
+        margin-top: 10px;
+    }
+    
+    .footer .label-control{
+        font-size: 14px;
+        
+    }
+    
+    .footer .footer-logo{
+        padding-top: 5px;
+        margin-right: auto;
+        width: 60%;
+        margin-left: auto;
+    }
+    
+    .footer .form-inline{
+        padding-top: 10px;
+        display: inline;
+       
+    }
+    
+    
+    .footer button{
+        padding:2px;
+        font-size: 12px;
+      
+    }
+    
+.footer .form-control{
+    width: 100%!important;
+}
+    
+    .copyright{
+        background: #00312e96;
+        text-align: center;
+        font-size: 10px;
     }
 
 }
