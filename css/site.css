@@ -109,12 +109,37 @@ color: #000;
     font-family: 'Lato', sans-serif;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
     
 }
 .category-img img{
     width: 100%;
    
 }
+
+.shop{
+    padding-top: 30px;
+}
+
+.shop .row{
+    padding-top: 30px;
+}
+.shop-box{
+    width: 25%;
+    text-align: center; 
+    font-size: 18px;
+    font-weight: 600;
+}
+.shop-box p{
+    padding-top: 10px;
+}
+
+.shop-box:hover{
+background: #25f7e654;
+}
+
+
+
 
 /* Responsive max 768px */
 @media only screen and (max-width:425px){
@@ -216,4 +241,26 @@ font-weight: bold;
        
        
     }
+
+    .shop{
+        padding-top: 20px;
+    }
+    
+    .shop .row{
+        padding-top: 20px;
+    }
+    
+    .shop-box{
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    
+    .shop-box p{
+        padding-top: 1px;
+    }
+    
+    
+
+
 }
