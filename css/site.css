@@ -73,11 +73,48 @@
 
 .carousel-page{
     background-color:#0fbbad70 ;
-    margin-top: 40px;
+
     margin-bottom: 10px;
 }
 
 
+.carousel-indicators li{
+    background: #ffffff!important;
+    border-radius: 100%;
+    width: 20px!important;
+    height: 20px!important;
+}
+
+.carousel-indicators .active{
+    background: #076861!important;
+   
+}
+
+.head-text p{
+    text-align: center;
+   color: #25f7e6;
+   font-size: 50px;
+   font-family: 'Lato', sans-serif;
+   padding-top: 40px;
+}
+
+.head-text span{
+color: #000;
+}
+
+.category-img{
+    width: 100%;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.category-img img{
+    width: 100%;
+   
+}
 
 /* Responsive max 768px */
 @media only screen and (max-width:425px){
@@ -131,13 +168,11 @@
     
     .carousel-page{
         background-color:#0fbbad70 ;
-        margin-top: 20px;
-        margin-bottom: 100px;
     }
 
     .carousel-inner .car-text h2{
 font-size: 20px;
-font-weight: bold;,
+font-weight: bold;
     }
     .carousel-item .car-text{
         line-height: 1.1;
@@ -152,5 +187,33 @@ font-weight: bold;,
         text-align: center;
     }
 
+    .carousel-indicators li{
 
+        width: 10px!important;
+        height: 10px!important;
+    }
+
+    .head-text p{
+       font-size: 30px;
+       padding-top: 20px;
+    }
+    
+    .category-img{
+       width: 100%;
+        font-size: 18px;
+        font-weight: 500;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        
+    }
+
+    .category-img p{
+        padding-top: 5px;
+    }
+    .category-img img{
+        width: 80%;
+       
+       
+    }
 }
