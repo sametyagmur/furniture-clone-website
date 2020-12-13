@@ -1,0 +1,156 @@
+.topnav{
+    background-color: #e8e8e8;
+    border: none;
+}
+
+.nav-icon{
+    color: #ffffff;
+}
+
+.header
+{
+    background-color: #e8e8e8;
+}
+
+.header-text{
+    box-sizing: border-box;
+    
+}
+
+.header-text span{
+    color: #0fbbad;
+    font-family: 'Lato', sans-serif;
+}
+
+.header img{
+    max-width: 100%;
+}
+
+
+.nav-link{
+    color: #000;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+.nav-link:hover{
+    color: #0fbbad;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+}
+
+.shop-button{
+    padding-bottom: 10px;
+}
+.header .btn{
+    background-color: #ffffff;
+    color:#0fbbad ;
+    border: none;
+    margin-right: auto;
+    
+}
+
+.header .btn:hover{
+    background-color: #0fbbad ;
+    color: #ffffff;
+    transition: all 0.3s ease-in;
+    
+}
+
+
+.carousel-item{
+    height: 32rem;
+    background-color:#0fbbad ;
+    position: relative;
+}
+
+.carousel-item .container{
+    position: absolute;
+    top:10rem;
+    left: 10rem;
+}
+
+.carousel-page{
+    background-color:#0fbbad70 ;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+
+
+/* Responsive max 768px */
+@media only screen and (max-width:425px){
+
+/*navigation responsive */ 
+
+    .topnav .navbar-brand{
+    width: 100%;
+    text-align: center;
+    }
+
+    .topnav .navbar-brand img{
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;  
+    }
+
+   .icons{
+       margin-left: auto;
+   }
+
+    .header .header-text h1{
+        font-size: 30px;
+        text-align: left;
+        padding-left: 5px;
+        padding-top: 10px;
+    }
+
+    .header-text{
+        padding-bottom: 15px;
+    }
+    .header-image{
+        max-width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .carousel-item{
+        height: 16rem;
+        background-color:#0fbbad ;
+        position: relative;
+    }
+    
+    .carousel-item .container{
+        position: absolute;
+        top:1rem;
+        right: 0;
+        left: 0;
+        text-align: center;
+    }
+    
+    .carousel-page{
+        background-color:#0fbbad70 ;
+        margin-top: 20px;
+        margin-bottom: 100px;
+    }
+
+    .carousel-inner .car-text h2{
+font-size: 20px;
+font-weight: bold;,
+    }
+    .carousel-item .car-text{
+        line-height: 1.1;
+    }
+
+
+    .carousel-inner .car-img{
+        width: 100%;
+    }
+    .carousel-inner .car-img img{
+        width: 50%;
+        text-align: center;
+    }
+
+
+}
