@@ -1,380 +1,311 @@
-.topnav{
-    background-color: #e8e8e8;
-    border: none;
+/* NAVIGATION AREA */
+.navigation-page {
+  background-color: #e8e8e8;
+  border: none;
 }
 
-.nav-icon{
-    color: #ffffff;
+.navicon{
+  display: flex;
+  margin-left: auto;
 }
 
-.header
-{
-    background-color: #e8e8e8;
+.navicon .icon{
+padding-right: 10px;
 }
 
-.header-text{
-    box-sizing: border-box;
-    
+.nav-link {
+  color: #000;
+  font-size: 22px;
+  font-family: "Lato", sans-serif;
+  text-align: center;
 }
 
-.header-text span{
-    color: #0fbbad;
-    font-family: 'Lato', sans-serif;
+.nav-link:hover {
+  color: #0fbbad;
 }
 
-.header img{
-    max-width: 100%;
+.modal{
+  background-color: #000;
+  width: 30%;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+}
+/* NAVIGATION AREA END */
+
+/* MAIN PAGE AREA */
+.main-page {
+  background-color: #e8e8e8;
+}
+.main-page-text{
+  padding-top: 80px;
+}
+.main-page-text h1{
+  font-size: 62px;
+  box-sizing: border-box;
+  padding-left: 40px;
+}
+.main-page-text span {
+  color: #0fbbad;
+  font-family: "Lato", sans-serif;
+}
+.main-page-img{
+ padding-top: 30px;
+ text-align: center;
+}
+.main-page img {
+  width: 70%!important;
+}
+/* MAIN PAGE AREA END */
+
+/* CAROUSEL AREA */
+/* CAROUSEL AREA END */
+
+/* CATEGORIES AREA */
+/* CATEGORIES AREA END*/
+
+/* SHOPPING AREA */
+/* SHOPPING AREA END */
+
+/* CONTACT AREA */
+/* CONTACT AREA END */
+
+/* FOOTER AREA */
+/* FOOTER AREA END */
+
+@media only screen and (max-width:575px){
+
+/* NAVIGATION AREA */
+.logo{
+  width: 40%;
+}
+.logo img{
+  width: 90%;
+}
+.navicon{
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  padding:2px;
+}
+.navicon img{
+  width: 50%;
+}
+
+.hamburger-menu{
+  padding-left: 5px;
+}
+.hamburger-menu img{
+  width: 50%;
+}
+.navbar-toggler{
+  padding:0.5rem!important;
+  margin-left: auto!important;
+}
+
+/* NAVIGATION AREA END*/
+
+/* MAIN PAGE AREA */
+
+.main-page-text{
+  padding-top: 20px;
+}
+.main-page-text h1{
+  font-size: 35px;
+  padding-left: 10px;
+}
+.main-page img {
+  width: 60%!important;
+}
+
+/* MAIN PAGE AREA END */
+
+/* CAROUSEL AREA */
+/* CAROUSEL AREA END */
+
+/* CATEGORIES AREA */
+/* CATEGORIES AREA END*/
+
+/* SHOPPING AREA */
+/* SHOPPING AREA END */
+
+/* CONTACT AREA */
+/* CONTACT AREA END */
+
+/* FOOTER AREA */
+/* FOOTER AREA END */
+}
+
+@media only screen and (min-width:576px) and (max-width:767px){
+
+/* NAVIGATION AREA */
+/*No responsive required
+/* NAVIGATION AREA END*/
+
+/* MAIN PAGE AREA */
+
+.main-page-text{
+  padding-top: 30px;
+}
+.main-page-text h1{
+  font-size: 50px;
+  padding-left: 20px;
+}
+.main-page-img{
+ padding-top: 25px;
+ 
+}
+.main-page img {
+  width: 60%!important;
+}
+
+/* MAIN PAGE AREA END */
+
+/* CAROUSEL AREA */
+/* CAROUSEL AREA END */
+
+/* CATEGORIES AREA */
+/* CATEGORIES AREA END*/
+
+/* SHOPPING AREA */
+/* SHOPPING AREA END */
+
+/* CONTACT AREA */
+/* CONTACT AREA END */
+
+/* FOOTER AREA */
+/* FOOTER AREA END */
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){
+
+/* NAVIGATION AREA */
+/* NAVIGATION AREA END*/
+
+/* MAIN PAGE AREA */
+
+.main-page-text{
+  padding-top: 20px;
+}
+.main-page-text h1{
+  font-size: 45px;
+  padding-left: 20px;
+}
+.main-page-img{
+ padding-top: 25px;
+}
+.main-page img {
+  width: 70%!important;
+}
+
+/* MAIN PAGE AREA END */
+
+/* CAROUSEL AREA */
+/* CAROUSEL AREA END */
+
+/* CATEGORIES AREA */
+/* CATEGORIES AREA END*/
+
+/* SHOPPING AREA */
+/* SHOPPING AREA END */
+
+/* CONTACT AREA */
+/* CONTACT AREA END */
+
+/* FOOTER AREA */
+/* FOOTER AREA END */
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px){
+
+/* NAVIGATION AREA */ 
+/* NAVIGATION AREA END*/
+
+/* MAIN PAGE AREA */
+
+.main-page-text{
+  padding-top: 30px;
+}
+.main-page-text h1{
+  font-size: 55px;
+  padding-left: 25px;
+}
+.main-page-img{
+ padding-top: 30px;
+}
+.main-page img {
+  width: 75%!important;
+}
+
+/* MAIN PAGE AREA END */
+
+/* CAROUSEL AREA */
+/* CAROUSEL AREA END */
+
+/* CATEGORIES AREA */
+/* CATEGORIES AREA END*/
+
+/* SHOPPING AREA */
+/* SHOPPING AREA END */
+
+/* CONTACT AREA */
+/* CONTACT AREA END */
+
+/* FOOTER AREA */
+/* FOOTER AREA END */
+}
+
+@media only screen and (min-width:1200px){
+
+/* NAVIGATION AREA */
+/* NAVIGATION AREA END*/
+
+/* MAIN PAGE AREA */
+.main-page-text{
+  padding-top: 80px;
+}
+.main-page-text h1{
+  font-size: 60px;
+  padding-left: 25px;
+}
+.main-page-img{
+ padding-top: 80px;
+}
+.main-page img {
+  width: 60%!important;
+}
+/* MAIN PAGE AREA END */
+
+/* CAROUSEL AREA */
+/* CAROUSEL AREA END */
+
+/* CATEGORIES AREA */
+/* CATEGORIES AREA END*/
+
+/* SHOPPING AREA */
+/* SHOPPING AREA END */
+
+/* CONTACT AREA */
+/* CONTACT AREA END */
+
+/* FOOTER AREA */
+/* FOOTER AREA END */
 }
 
 
-.nav-link{
-    color: #000;
-    font-size: 16px;
-    font-family: 'Lato', sans-serif;
-    text-align: center;
-}
 
-.nav-link:hover{
-    color: #0fbbad;
-    font-size: 16px;
-    font-family: 'Lato', sans-serif;
-}
+/*BOOTSTRAP
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
 
-.shop-button{
-    padding-bottom: 10px;
-}
-.header .btn{
-    background-color: #ffffff;
-    color:#0fbbad ;
-    border: none;
-    margin-right: auto;
-    
-}
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
 
-.header .btn:hover{
-    background-color: #0fbbad ;
-    color: #ffffff;
-    transition: all 0.3s ease-in;
-    
-}
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
 
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
 
-.carousel-item{
-    height: 32rem;
-    background-color:#0fbbad ;
-    position: relative;
-}
-
-.carousel-item .container{
-    position: absolute;
-    top:10rem;
-    left: 10rem;
-}
-
-.carousel-page{
-    background-color:#0fbbad70 ;
-
-    margin-bottom: 10px;
-}
-
-
-.carousel-indicators li{
-    background: #ffffff!important;
-    border-radius: 100%;
-    width: 20px!important;
-    height: 20px!important;
-}
-
-.carousel-indicators .active{
-    background: #076861!important;
-   
-}
-
-.head-text p{
-    text-align: center;
-   color: #25f7e6;
-   font-size: 50px;
-   font-family: 'Lato', sans-serif;
-   padding-top: 40px;
-}
-
-.head-text span{
-color: #000;
-}
-
-.category-img{
-    width: 100%;
-    font-size: 25px;
-    font-weight: 600;
-    font-family: 'Lato', sans-serif;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    
-}
-.category-img img{
-    width: 100%;
-   
-}
-
-.shop{
-    padding-top: 30px;
-}
-
-.shop .row{
-    padding-top: 30px;
-}
-.shop-box{
-    width: 25%;
-    text-align: center; 
-    font-size: 18px;
-    font-weight: 600;
-}
-.shop-box p{
-    padding-top: 10px;
-}
-
-.shop-box:hover{
-background: #25f7e654;
-}
-
-.map {
-    width: 100%;
-}
-
-.contact .button{
-    padding-bottom: 10px;
-}
-.contact .btn{
-    color: #ffffff;
-    background-color:#0fbbad ;
-    border: none;
-    
-
-    
-}
-
-.contact .btn:hover{
-    color: #0fbbad ;
-    background-color: #ffffff;
-    transition: all 0.3s ease-in;
-}
-.form-control{
-    width: 50% !important;
-    
-}
-
-.footer{
-    background: #00312e;
-    margin-top: 15px;
-}
-
-.footer .label-control{
-    font-size: 16px;
-    color: #ffffff;
-}
-
-.footer .footer-logo{
-    padding-top: 15px;
-}
-
-.footer .form-inline{
-    padding-top: 15px;
-}
-
-.footer .form-inline .label-control{
-    padding-right: 5px;
-}
-
-.footer button{
-    background: #ffffff;
-    color: #00312e;
-    border: none;
-    font-weight: bold;
-}
-
-.footer button:hover{
-    background: #813838;
-   
-}
-
-.copyright{
-    background: #00312e96;
-    text-align: center;
-    font-size: 15px;
-}
-
-.copyright p{
-margin: 0;
-}
-/* Responsive max 768px */
-@media only screen and (max-width:425px){
-
-/*navigation responsive */ 
-
-    .topnav .navbar-brand{
-    width: 100%;
-    text-align: center;
-    }
-
-    .topnav .navbar-brand img{
-    max-width: 70%;
-    margin-left: auto;
-    margin-right: auto;  
-    }
-
-   .icons{
-       margin-left: auto;
-   }
-
-    .header .header-text h1{
-        font-size: 30px;
-        text-align: left;
-        padding-left: 5px;
-        padding-top: 10px;
-    }
-
-    .header-text{
-        padding-bottom: 15px;
-    }
-    .header-image{
-        max-width: 70%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .carousel-item{
-        height: 16rem;
-        background-color:#0fbbad ;
-        position: relative;
-    }
-    
-    .carousel-item .container{
-        position: absolute;
-        top:1rem;
-        right: 0;
-        left: 0;
-        text-align: center;
-    }
-    
-    .carousel-page{
-        background-color:#0fbbad70 ;
-    }
-
-    .carousel-inner .car-text h2{
-font-size: 20px;
-font-weight: bold;
-    }
-    .carousel-item .car-text{
-        line-height: 1.1;
-    }
-
-
-    .carousel-inner .car-img{
-        width: 100%;
-    }
-    .carousel-inner .car-img img{
-        width: 50%;
-        text-align: center;
-    }
-
-    .carousel-indicators li{
-
-        width: 10px!important;
-        height: 10px!important;
-    }
-
-    .head-text p{
-       font-size: 30px;
-       padding-top: 20px;
-    }
-    
-    .category-img{
-       width: 100%;
-        font-size: 18px;
-        font-weight: 500;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        
-    }
-
-    .category-img p{
-        padding-top: 5px;
-    }
-    .category-img img{
-        width: 80%;
-       
-       
-    }
-
-    .shop{
-        padding-top: 20px;
-    }
-    
-    .shop .row{
-        padding-top: 20px;
-    }
-    
-    .shop-box{
-        font-size: 16px;
-        font-weight: 500;
-    }
-
-    
-    .shop-box p{
-        padding-top: 1px;
-    }
-    
-
-    .map iframe{
-        width: 100%;
-        height: 200px;
-    }
-
-    .form-control{
-        width: 100% !important;
-        
-    }
-
-    .footer{
-        background: #00312e;
-        margin-top: 10px;
-    }
-    
-    .footer .label-control{
-        font-size: 14px;
-        
-    }
-    
-    .footer .footer-logo{
-        padding-top: 5px;
-        margin-right: auto;
-        width: 60%;
-        margin-left: auto;
-    }
-    
-    .footer .form-inline{
-        padding-top: 10px;
-        display: inline;
-       
-    }
-    
-    
-    .footer button{
-        padding:2px;
-        font-size: 12px;
-      
-    }
-    
-.footer .form-control{
-    width: 100%!important;
-}
-    
-    .copyright{
-        background: #00312e96;
-        text-align: center;
-        font-size: 10px;
-    }
-
-}
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
